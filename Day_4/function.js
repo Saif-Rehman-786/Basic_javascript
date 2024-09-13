@@ -75,3 +75,7 @@ const cars = {
 const e = myCars(cars);
 
 console.log(e);
+
+
+// NOTE:
+//consol.log is not equal to result of a function
