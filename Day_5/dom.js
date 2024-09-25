@@ -14,10 +14,22 @@
 
 
 // ..................  Form
-function get() {
+// function get() {
 
-    let usermail = document.getElementById("mail").value;
-    let password = document.getElementById("pass").value;
+//     let usermail = document.getElementById("mail").value;
+//     let password = document.getElementById("pass").value;
 
-    alert(usermail+ "/n" + password)
+//     alert(usermail+ "/n" + password)
+// }
+
+
+
+
+//......................addEventLeistner
+
+let result = document.getElementById("btn");
+function hello(event) {
+    alert("hello");
+
 }
+result.addEventListener("click", hello)
