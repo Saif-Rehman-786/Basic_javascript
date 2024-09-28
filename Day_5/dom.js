@@ -25,11 +25,56 @@
 
 
 
-//......................addEventLeistner
+//......................addEventLeistner onclick
 
-let result = document.getElementById("btn");
-function hello(event) {
-    alert("hello");
+// let result = document.getElementById("btn");
+// function hello(event) {
+//     alert("hello");
 
-}
-result.addEventListener("click", hello)
+// }
+// result.addEventListener("click", hello)
+
+
+
+//===========================double click
+
+
+
+// let a = document.getElementById("btn");
+// function hello(event) {
+//     alert("double click");
+
+// }
+// a.addEventListener("dblclick", hello);
+
+
+
+
+
+// let b=document.getElementById("btn");
+
+// function hi(event){
+//     alert("mouseover")
+// }
+
+
+// b.addEventListener("mouseover",hi);
+
+
+
+// let c=document.getElementById("btn");
+
+// function by(event){
+//     event.preventDefault()
+//     alert("right click here")
+// }
+
+
+// c.addEventListener("contextmenu",by);
+
+
+
+let element=document.createElement('h1');
+
+let elements=document.createTextNode("hello");
+console.log(element.appendChild(elements))
